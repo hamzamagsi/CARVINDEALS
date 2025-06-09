@@ -451,4 +451,17 @@ footer {
     border-radius: 8px;
     width: 100%;
   }
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px; /* below header */
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-shadow: var(--shadow-lg);
+    z-index: 99;
+  }
+
 }
